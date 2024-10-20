@@ -1,0 +1,4 @@
+DBNAME=mydevdb
+DBHOST=localhost
+DBUSER=iamdba
+DBPASSWORD=mysecretpassword

@@ -1,0 +1,17 @@
+{
+  "name": "latte-cost-db",
+  "version": "1.0.0",
+  "description": "Database for Latte Cost",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "node_modules/db-migrate/bin/db-migrate"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "db-migrate": "^0.11.14",
+    "db-migrate-mysql": "^3.0.0",
+    "dotenv": "^16.4.5"
+  }
+}

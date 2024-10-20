@@ -1,0 +1,10 @@
+{
+    "defaultEnv": {"ENV": "NODE_ENV"},
+    "local": {
+        "driver": "mysql",
+        "user": {"ENV": "DBUSER"},
+        "password": {"ENV": "DBPASSWORD"},
+        "host": {"ENV": "DBHOST"},
+        "database": {"ENV": "DBNAME"}
+    }
+}
